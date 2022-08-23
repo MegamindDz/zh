@@ -8,6 +8,7 @@ public class Zombie : MonoBehaviour
     NavMeshAgent agent;
     GameObject player;
     Animator anim;
+    public float zombieHP = 100;
 
     void Start()
     {
